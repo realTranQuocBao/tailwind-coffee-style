@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-coffee-style",
+  "version": "1.0.0",
+  "description": "Reseaching TailwindCSS with Coffee Style Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:build": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
+    "start:dev": "live-server ./public"
+  },
+  "keywords": [
+    "tailwindcss",
+    "coffee",
+    "style"
+  ],
+  "author": "QuocBaoIT",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
